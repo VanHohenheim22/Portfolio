@@ -1,0 +1,20 @@
+.contact_container{
+    margin-top: 1rem;
+    justify-content: center;
+    text-align: center
+}
+
+.contacts{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.bx{
+    font-size: 32px;
+}
+
+.bxs-envelope:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    margin: 1rem 0.5rem;
+    padding: 0 1rem;
+}
+
+.content_Nav{
+    margin-right: 1rem;
+    position: relative;
+}
+.content_Nav ul{
+    display: flex;
+    gap: 1rem;
+    color: white;
+    font-size: 18px;
+}
+
+.logonav, .logonav2{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+}
+.logonav2{
+    
+    opacity: 0;
+}
+.logonav2:hover{
+    opacity: 1;
+    transition: 0.12s;
+}
+
+
+.content_Nav li :hover{
+    color: rgb(96, 127, 179);
+}
