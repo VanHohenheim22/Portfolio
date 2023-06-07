@@ -20,32 +20,32 @@ const Home = () => {
           </section>
           <section className="robo_section">
             <img
-              src="./public/images/ellipse.png"
+              src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/Ellipse.png"
               alt="/ellipse"
               className="ball"
             />
             <img
-              src="./public/images/astrobot.png"
+              src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/astrobot.png"
               alt="astrobot"
               className="astrobot"
             />
             <img
-              src="./public/images/ellipsem.png"
+              src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/Ellipsem.png"
               alt="ellipsem"
               className="ellipsem"
             />
             <img
-              src="./public/images/ellipsem2.png"
+              src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/Ellipsem2.png"
               alt="ellipsem2"
               className="ellipsem2"
             />
             <img
-              src="./public/images/ellipseg.png"
+              src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/Ellipseg.png"
               alt="ellipsem3"
               className="ellipsem3"
             />
             <img
-              src="./public/images/ellipseg.png"
+              src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/Ellipseg.png"
               alt="ellipseg"
               className="ellipseg"
             />

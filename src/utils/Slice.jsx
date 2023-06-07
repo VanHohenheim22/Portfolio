@@ -14,32 +14,37 @@ const Carousel = () => {
   return (
     <div className="containerSlider">
       <Slider {...settings}>
-          <div>
-            <a href="https://capable-cranachan-6f5707.netlify.app/" target="_blank">
-              <img src="./public/images/RickandMorty.jpeg" />
-            </a>
-          </div>
+        <div>
+          <a
+            href="https://capable-cranachan-6f5707.netlify.app/"
+            target="_blank"
+          >
+            <img src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/RickandMorty.jpeg" />
+          </a>
+        </div>
 
-          <div>
-            <a href="https://ecomerce-grupo3a.netlify.app/" target="_blank">
-               <img src="./public/images/Ecomerce.jpeg" />
-            </a>
-          </div>
-          <div>
-            <a href="https://splendorous-halva-1d76ad.netlify.app" target="_blank">
-              <img src="./public/images/usersApp.jpeg" />
-            </a>
-          </div>
+        <div>
+          <a href="https://ecomerce-grupo3a.netlify.app/" target="_blank">
+            <img src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/Ecomerce.jpeg" />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://splendorous-halva-1d76ad.netlify.app"
+            target="_blank"
+          >
+            <img src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/usersApp.jpeg" />
+          </a>
+        </div>
 
-          <div>
-            <a href="https://clever-bubblegum-5ea446.netlify.app" target="_blank">
-               <img src="./public/images/Pokeweb.jpeg" />
-            </a>
-          </div>
-        </Slider>
+        <div>
+          <a href="https://clever-bubblegum-5ea446.netlify.app" target="_blank">
+            <img src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/Pokeweb.jpeg" />
+          </a>
+        </div>
+      </Slider>
     </div>
   );
 };
-
 
 export default Carousel;

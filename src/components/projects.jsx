@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/projects.css";
-import Carousel from "../utils/Slice.jsx"
-
+import Carousel from "../utils/Slice.jsx";
 
 const Projects = () => {
   return (
@@ -19,12 +18,24 @@ const Projects = () => {
           </p>
         </section>
         <section className="projectsCarru">
-          <img src="./public/images/duna.svg" alt="" className="svgThing" />
-          <img src="./public/images/ellipseg.png" alt="" className="ellipseproducts"/>
-          <Carousel></Carousel> 
+          <img
+            src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/2e5cb3adf545790b6ad81ea0daedb2616ac44507/public/images/duna.svg"
+            alt=""
+            className="svgThing"
+          />
+          <img
+            src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/Ellipseg.png"
+            alt=""
+            className="ellipseproducts"
+          />
+          <Carousel></Carousel>
         </section>
 
-        <img src="./public/images/Ellipse.png" alt="" className="ball-project"/>
+        <img
+          src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/Ellipse.png"
+          alt=""
+          className="ball-project"
+        />
       </section>
     </>
   );

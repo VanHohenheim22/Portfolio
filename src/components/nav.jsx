@@ -5,8 +5,8 @@ const Nav = () => {
   return (
     <nav>
         <div className="logo_Nav">
-          <img src="./public/images/logo1.png" alt="" className='logonav'/>
-          <img src="./public/images/logo2.png" alt="" className='logonav2'/>
+          <img src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/logo1.png" alt="" className='logonav'/>
+          <img src="https://raw.githubusercontent.com/VanHohenheim22/Portfolio/main/public/images/logo2.png" alt="" className='logonav2'/>
         </div>
 
         <div className="content_Nav">
