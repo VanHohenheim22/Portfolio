@@ -10,11 +10,11 @@
   --backgorund-color: #000000;
   --found-color: #efecec;
   --placeholder-text: rgb(155, 164, 237);
-  --box-background: rgba(62, 60, 60, 0.9);;
+  --box-background: rgba(62, 60, 60, 0.9);
 }
 
 body{
-  background-color: (var(--backgorund-color));
+  background-color: rgba(62, 60, 60, 0.9);;
   color: white;
 }
 .body_content{
