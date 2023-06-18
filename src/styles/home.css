@@ -101,3 +101,12 @@
     margin: 1rem 0;
     font-weight: bold;
 }
+
+.light-mode{
+    background-color: rgb(155 164 237);
+}
+
+.light-mode div{
+    background-color: rgba(205, 209, 245, 0.851);
+}
+

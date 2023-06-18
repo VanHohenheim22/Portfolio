@@ -9,12 +9,17 @@
     margin-top: 3rem;
     justify-content: center;
     gap: 3rem;
+    padding-bottom: 1.5rem;
 }
 
-.bx{
+.contact_container .bx{
     font-size: 32px;
 }
 
 .bxs-envelope:hover{
     cursor: pointer;
+}
+
+.bxc i{
+    color: hwb(234 27% 55%);
 }

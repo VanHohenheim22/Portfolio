@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/home.css";
 
-const Home = () => {
+const Home = ( { darkMode, handleToggle } ) => {
   return (
     <>
       <section className="home" id="home">
@@ -51,7 +51,7 @@ const Home = () => {
             />
           </section>
         </div>
-        <div className="home_body">
+        <div className={`home_body ${darkMode ? "light-mode": ""}`}>
           <div className="boxHome">
             {" "}
             <i className="bx bxl-javascript"></i> <br />{" "}

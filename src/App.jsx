@@ -4,16 +4,25 @@ import Home from './components/home'
 import './App.css'
 import Projects from './components/projects'
 import Contact from './components/contact'
+import { useEffect } from 'react'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [darkMode, setDarkMode] = useState(false);
+
+  const handleToggle = () => {
+    setDarkMode(!darkMode);
+  };
+  
+  
 
   return (
-    <div className='body_content'>
-     <Nav></Nav>
-     <Home></Home>
-     <Projects></Projects>
-     <Contact></Contact>
+    <div className={`body_content ${darkMode ? 'dark-mode' : ''}`}>
+     <Nav darkMode = {darkMode} handleToggle= {handleToggle}/>
+     <Home darkMode = {darkMode} handleToggle= {handleToggle}/>
+     <Projects />
+     <Contact darkMode = {darkMode} handleToggle= {handleToggle}/>
     </div>
   )
 }
